@@ -1,4 +1,4 @@
-$source = "https://github.com/erandika1986/Dynami.IdentityServer4.UI/main.zip"
+$source = "https://github.com/erandika1986/Dynami.IdentityServer4.UI/archive/main.zip"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest $source -OutFile ui.zip
 

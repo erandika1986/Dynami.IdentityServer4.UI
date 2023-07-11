@@ -2,7 +2,7 @@
 
 set -e
 
-SOURCE="https://github.com/erandika1986/Dynami.IdentityServer4.UI/main.zip"
+SOURCE="https://github.com/erandika1986/Dynami.IdentityServer4.UI/archive/main.zip"
 curl -L -o ui.zip "$SOURCE"
 
 unzip -d ui ui.zip
